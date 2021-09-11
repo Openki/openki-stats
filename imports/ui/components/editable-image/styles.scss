@@ -1,32 +1,32 @@
 @import '{}/imports/ui/stylesheets/variables/index';
 
-.file-upload {
+.editable-image {
 	background-color: $blue-lighter;
 	font-size: 1.25rem;
 	padding: 50px 20px;
 	position: relative;
 }
-.file-upload.supports-dragndrop {
+.editable-image.supports-dragndrop {
 	outline: 2px dashed #92b0b3;
 	outline-offset: -10px;
 
 	transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
 }
-.file-upload.is-dragover {
+.editable-image.is-dragover {
 	background-color: $white;
 	outline-color: $blue-lighter;
 	outline-offset: -20px;
 }
 
-.file-upload-drop {
+.editable-image-drop {
 	font-weight: bold;
 }
 
-.file-upload-uploading {
+.editable-image-uploading {
 	font-style: italic;
 }
 
-.file-upload label {
+.editable-image label {
 	cursor: pointer;
 	display: inline-block;
 	max-width: 80%;
@@ -35,11 +35,11 @@
 	white-space: nowrap;
 }
 
-.file-upload label:hover strong {
+.editable-image label:hover strong {
 	color: $blue;
 }
 
-.file-upload-controls {
+.editable-image-controls {
 	margin-left: 10px;
 	margin-top: 7px;
 	position: absolute;
